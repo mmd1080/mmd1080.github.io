@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Paytone One|Paytone One');
 /*!
- * Default theme for Pingendo 
- * Homepage: http://pingendo.com  
- * Copyright 2015 Pingendo 
- * Licensed under MIT 
+ * Default theme for Pingendo
+ * Homepage: http://pingendo.com
+ * Copyright 2015 Pingendo
+ * Licensed under MIT
  * Based on Bootstrap v3.3.4
 */
-/* Add custom CSS classes here 
- * 
+/* Add custom CSS classes here
+ *
  * img {
  *   box-shadow : 0px 0px 10px black !important;
  * }
@@ -6619,7 +6619,7 @@ body {
   background-attachment: fixed;
 }
 .section-primary {
-  background-color: #0b61ff !important;
+  background-color: #F6F6F0 !important;
   color: #ffffff;
 }
 .section-primary .background-image {
