@@ -1581,6 +1581,16 @@ pre code {
   padding-right: 15px;
   max-width: 940px;
 }
+@media (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
