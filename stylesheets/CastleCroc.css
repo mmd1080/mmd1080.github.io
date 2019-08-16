@@ -1341,11 +1341,31 @@ mark,
 .text-muted {
   color: #777777;
 }
-.text-primary {
-  color: #0b61ff;
+@media (prefers-color-scheme: dark) {
+  .section-primary {
+    background-color: #1F2124 !important;
+    color: #F6F6F0;
+  }
+  .section-secondary {
+    background-color: #ffb800 !important;
+    color: #1F2124;
+  }
+  .text-dinico {
+    color: #1F2124;
+  }
 }
-a.text-primary:hover {
-  color: #004cd7;
+@media screen and (prefers-color-scheme: light) {
+  .section-primary {
+    background-color: #F6F6F0 !important;
+    color: #1F2124;
+  }
+  .section-secondary {
+    background-color: #1F2124 !important;
+    color: #F6F6F0;
+  }
+  .text-dinico {
+    color: #F6F6F0;
+  }
 }
 .text-success {
   color: #5cb85c;
@@ -6577,9 +6597,6 @@ body {
 .jumbotron {
   margin-bottom: 0px !important;
 }
-.jumbotron h1.text-primary {
-  color: #0b61ff !important;
-}
 .jumbotron h1.text-inverse {
   color: #ffffff !important;
 }
@@ -6614,9 +6631,23 @@ body {
 .section .background-image.background-image-fixed {
   background-attachment: fixed;
 }
-.section-primary {
-  background-color: #F6F6F0 !important;
-  color: #ffffff;
+@media (prefers-color-scheme: dark) {
+  .section-primary {
+    background-color: #1F2124 !important;
+    color: #F6F6F0;
+  }
+  .text-primary {
+    color: #1F2124;
+  }
+}
+@media screen and (prefers-color-scheme: light) {
+  .section-primary {
+    background-color: #F6F6F0 !important;
+    color: #1F2124;
+  }
+  .text-primary {
+    color: #F6F6F0;
+  }
 }
 .section-primary .background-image {
   opacity: 0.5;
@@ -6699,9 +6730,6 @@ body {
   .cover .h1 {
     font-size: 63px;
   }
-}
-.cover h1.text-primary {
-  color: #0b61ff !important;
 }
 .cover h1.text-inverse {
   color: #ffffff !important;
